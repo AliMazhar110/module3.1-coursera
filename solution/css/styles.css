@@ -41,8 +41,207 @@ a.contact{
 a.contact:active, a.contact:hover{
 	color: #ff99ff;
 }
-
-
+@media(min-width:768px) and (max-width: 991px){
+	.navbar{
+		height: 150px;
+		position: relative;
+	}
+	span a.contact{
+		display: block;
+		margin-right: 10px;
+		margin-top: 60px;
+	}
+	div.navbar-brand a h1.name{
+		font-size: 50px;
+	}
+	div.navbar-brand p span.tag{
+		font-size: 16px;
+	}
+}
+@media(min-width: 744px) and (max-width: 767px){
+	.navbar{
+		height: 220px;
+	}
+	div.navbar-brand{
+		margin-right: 380px;
+	}
+	div.navbar-brand a h1.name{
+		font-size: 50px;
+	}
+	span a.contact{
+		display: block;
+		margin-right: 170px;
+		margin-top: 50px;
+	}
+	div.navbar-brand p span.tag{
+		font-size: 16px;
+	}
+	.collapsed{
+		margin-top: 40px;
+	}
+}
+@media(min-width: 692px) and (max-width: 743px){
+	.navbar{
+		height: 210px;
+	}
+	div.navbar-brand{
+		margin-right: 380px;
+	}
+	div.navbar-brand a h1.name{
+		font-size: 50px;
+	}
+	span a.contact{
+		display: block;
+		margin-top: 40px;
+		font-size: 18px;
+		margin-right: 170px;
+	}
+	div.navbar-brand p span.tag{
+		font-size: 13px;
+	}
+	.collapsed{
+		margin-top: 40px;
+	}
+}
+@media(min-width: 632px) and (max-width: 691px){
+	.navbar{
+		height: 210px; 
+	}
+	div.navbar-brand{
+		margin-right: 320px;
+	}
+	div.navbar-brand a h1.name{
+		font-size: 50px;
+	}
+	span a.contact{
+		display: block;
+		margin-top: 50px;
+		font-size: 18px;
+		margin-right: 170px;
+	}
+	div.navbar-brand p span.tag{
+		font-size: 13px;
+	}
+	.collapsed{
+		margin-top: 20px;
+	}
+}
+@media(min-width: 536px) and (max-width: 631px){
+	.navbar{
+		height: 230px;
+	}
+	div.navbar-brand{
+		margin-right: 170px;
+	}
+	div.navbar-brand a h1.name{
+		font-size: 60px;
+	}
+	span a.contact{
+		display: block;
+		margin-top: 60px;
+		font-size: 16px;
+		margin-right: 170px;
+	}
+	div.navbar-brand p span.tag{
+		font-size: 15px;
+	}
+	.collapsed{
+		margin-left: 100px;
+		margin-top: 40px;
+	}
+}
+@media(min-width: 483px) and (max-width: 535px){
+	.navbar{
+		height: 230px;
+	}
+	div.navbar-brand{
+		margin-right: 140px;
+	}
+	div.navbar-brand a h1.name{
+		font-size: 50px;
+	}
+	span a.contact{
+		display: block;
+		margin-top: 60px;
+		font-size: 16px;
+		margin-right: 140px;
+	}
+	.collapsed{
+		margin-top: 40px;
+	}
+}
+@media(min-width: 403px) and (max-width: 482px){
+	.navbar{
+		height: 200px;
+	}
+	div.navbar-brand{
+		margin-right: 100px;
+	}
+	div.navbar-brand a h1.name{
+		font-size: 40px;
+	}
+	span a.contact{
+		display: block;
+		margin-top: 40px;
+		font-size: 16px;
+		margin-right: 90px;
+	}
+	.collapsed{
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+	div.navbar-brand p span.tag{
+		font-size: 13px;
+	}
+}
+@media(min-width: 363px) and (max-width: 402px){
+	.navbar{
+		height: 180px;
+	}
+	div.navbar-brand{
+		margin-right: 80px;
+	}
+	div.navbar-brand a h1.name{
+		font-size: 30px;
+	}
+	span a.contact{
+		display: block;
+		margin-top: 20px;
+		font-size: 13px;
+		margin-right: 60px;
+	}
+	.collapsed{
+		margin-top: 30px;
+		margin-left: 50px;
+	}
+	div.navbar-brand p span.tag{
+		font-size: 12px;
+	}
+}
+@media(max-width: 362px){
+	.navbar{
+		height: 200px;
+	}
+	div.navbar-brand{
+		margin-right: 70px;
+	}
+	div.navbar-brand a h1.name{
+		font-size: 30px;
+	}
+	span a.contact{
+		display: block;
+		margin-top: 40px;
+		font-size: 12px;
+		margin-right: 50px;
+	}
+	.collapsed{
+		margin-top: 30px;
+		margin-left: 50px;
+	}
+	div.navbar-brand p span.tag{
+		font-size: 10px;
+	}
+}
 
 
 
