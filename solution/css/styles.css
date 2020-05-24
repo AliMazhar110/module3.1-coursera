@@ -1,0 +1,58 @@
+body{
+	background-color: #336699;
+}
+*{
+	box-sizing: border-box;
+}
+div.main-heading{
+	background-color: #ff66ff;    /*main-heading*/
+}
+div.main-heading a.image-logo{    /*image*/
+	margin-left: 40px;
+}
+a.main{
+	text-decoration: none;
+}
+a.box{
+	text-decoration: none;
+}
+div.main-heading a.main h1:active, div.main-heading a.main h1:hover, div.main-heading a.main h1:visited{
+	color: #33ccff;
+}
+div.main-heading a.main h1{       /*brand-name*/
+	display: inline;
+	font-size: 80px;
+	text-shadow: 2px 2px 2px #336699;
+	font-weight: bold;
+	font-style: italic;
+}
+div.tag{                        /*tag*/
+	text-align: right;
+	color: #336699;
+	font-size: 20px;
+	margin-right: 50px;
+	font-style: italic;
+	font-weight: bolder;
+}
+.navbar{
+	background-color: #00ffff;
+	border: 3px 3px 3px 3px;
+	border-color: #336699;
+}
+a.box{
+	text-align: center;
+	display: block;
+	padding: 10px;
+}
+a.box h3{
+	display: inline;
+	color: #000099;
+	font-style: italic;
+	font-weight: bolder;
+}
+a.box:hover,a.box:active,a.box:visited{
+	background-color: yellow;
+}
+a.box h3:hover, a.box h3:visited, a.box h3:active{
+	color : #ff66ff;
+}
